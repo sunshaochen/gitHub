@@ -38,4 +38,16 @@
 ### SSH配置
 1. 生成RSA密钥对  
  ssh-Keygen -t rsa -C "your email"
+2. 在Github网站添加公钥
+3. 使用ssh协议，克隆仓库或者添加远程链接
+
+如果存在链接超时的情况，解决方法： 
+1. 找到git的安装目录，找到/etc/ssh/ssh_config文件
+2. 把如下内容复制到ssh_config文件的末尾处并保存  
+  Host github.com  
+  User git  
+  Hostname ssh.github.com  
+  PreferredAuthentications publickey  
+  IdentityFile ~/.ssh/id_rsa  
+  Port 443  
  
