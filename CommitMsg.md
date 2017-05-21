@@ -16,3 +16,5 @@
 * test: 增加测试
 * chore: 构建过程或辅助工具的变动
 
+## 参考
+[阮一峰blog](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
