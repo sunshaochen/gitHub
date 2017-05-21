@@ -1,10 +1,10 @@
 # CommitMsg 规范
 
-`<type`>(`<SCOPE`>):`<subject`>
-//空一行
-`<body`>
-//空一行
-`<footer`>
+`<type`>(`<SCOPE`>):`<subject`>  
+//空一行  
+`<body`>  
+//空一行  
+`<footer`>  
 
 ## type
 
