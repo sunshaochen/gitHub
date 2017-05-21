@@ -11,7 +11,7 @@
   - git clean -x -f 连.gitignore中忽略的档案页清除
 - git status -sb 简短模式显示状态
 - git add 
-  - git add  `<file name..`> 将文件提交到暂存区
+  - git add  `<file name..>` 将文件提交到暂存区
   - git add . 将所有的变更都提交到暂存区
   - git add -p 一个文件多个提交
 - git commit
@@ -22,14 +22,14 @@
   - git show HEAD~ 前看前一个提交信息（~3就前3个）
 - git log 
   - git log --oneline -4
-  - git log `<file name`>
-  - git log --grep  `<想要筛选的内容`>
+  - git log `<`file name`>`
+  - git log --grep  `<`想要筛选的内容`>`
   - git log -n  要显示的条数
 - git diff
   - git diff 工作目录和暂存区的区别
   - git diff --chached 暂存区和最新版本的区别
   - git diff HEAD 工作区和最新版本的区别
-  - git diff `<版本号1`> `<版本号2`> 两个版本之前的区别
-  - git diff HEAD~2 HEAD~3 两个版本之前的区别
+  - git diff `<版本号1>` `<版本号2>` 两个版本之前的区别
+  - git diff HEAD`~`2 HEAD`~`3 两个版本之前的区别
   - git tag yourTagName HEAD~2   >> git diff yourTagName
   - git diff --chached yourTagName
