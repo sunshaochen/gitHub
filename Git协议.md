@@ -21,6 +21,16 @@
 ## http协议
 
 * 克隆远程仓库  
- git clone htts://github.com/sunshaochen/test.git
+ git clone https://github.com/sunshaochen/test.git
 * 添加远程仓库的链接  
  git remote add origin https://github.com/sunshaochen/test.git
+
+
+## ssh协议
+
+* 克隆远程仓库，一般写成简短的命令  
+ git clone ssh://git@github.com/sunshaochen/test.git  
+ git clone git@github.com:sunshaochen/test.git
+ 
+* 添加远程仓库的链接  
+ git remote add origin git@github.com:sunshaochen/test.git
