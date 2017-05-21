@@ -16,4 +16,21 @@
   - git add -p 一个文件多个提交
 - git commit
   - git add. + git commit -m  'msg' == git commit -a -m 'msg' == git commit -am 'msg'
-  - 这里查看: [commit规范](CommitMsg.md)
+  - 这里查看: [commit规范](CommitMsg.md)
+- git show
+  - git show HEAD 查看第一条提交信息
+  - git show HEAD~ 前看前一个提交信息（~3就前3个）
+  
+- git log 
+  - git log --oneline -4
+  - git log `<file name`>
+  - git log --grep  `<想要筛选的内容`>
+  - git log -n  要显示的条数
+
+- git diff
+  - git diff 工作目录和暂存区的区别
+  - git diff --chached 暂存区和最新版本的区别
+  - git diff HEAD 工作区和最新版本的区别
+  - git diff `<版本号1`> `<版本号2`> 两个版本之前的区别
+  - git diff HEAD~2 HEAD~3 两个版本之前的区别
+  - git tag yourTagName HEAD~2   >> git diff yourTagName  || git diff --chached yourTagName
