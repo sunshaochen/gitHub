@@ -15,5 +15,5 @@
   * git add . 将所有的变更都提交到暂存区
   * git add -p 一个文件多个提交
 * git commit
-  * git add. + git commit -m  'msg' == git commit -a -m 'msg' == git commit -am 'msg'
-  * [commit规范](commitMsg.md)
+  * git add. + git commit -m  'msg' == git commit -a -m 'msg' == git commit -am 'msg'  
+  * [commit规范](https://github.com/sunshaochen/gitHub/edit/master/commitMsg.md)
