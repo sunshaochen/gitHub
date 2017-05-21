@@ -34,3 +34,8 @@
  
 * 添加远程仓库的链接  
  git remote add origin git@github.com:sunshaochen/test.git
+
+### SSH配置
+1. 生成RSA密钥对  
+ ssh-Keygen -t rsa -C "your email"
+ 
