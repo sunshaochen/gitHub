@@ -16,3 +16,4 @@
   * git add -p 一个文件多个提交
 * git commit
   * git add. + git commit -m  'msg' == git commit -a -m 'msg' == git commit -am 'msg'
+  * [commit规范](commitMsg.md)
