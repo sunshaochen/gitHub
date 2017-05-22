@@ -38,5 +38,14 @@
 - 回撤上一次提交  
   git add.  
   git commit --amend -m 'msg'
+
 - 变基操作，改写历史提交  
   git rebase -i HEAD~3
+- 回撤暂存区内容到工作目录  
+  git reset HEAD
+- 回撤提交到暂存区    
+  git reset HEAD^1 --soft
+- 回撤提交，放弃变更  
+  git reset HEAD --hard
+- 回撤远程仓库, -f 即 --force  
+  git push -f
