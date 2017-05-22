@@ -2,33 +2,33 @@
 
 
 ## username&email
-git config --global user.name=孙韶辰
-git config --global user.email=sunscsmail@gmail.com
+`git config --global user.name=孙韶辰`  
+`git config --global user.email=sunscsmail@gmail.com`
 
 
 ## ignore config 
 将某些文件忽略版本控制，添加 **.gitignore** 文件  
 内容如下：  
-  .progect  
-  *.md.html
+  `.progect`  
+  `*.md.html` 
   
 ##　windows系统下忽略crlf告警
-git config --global core.safecrlf false  
+`git config --global core.safecrlf false`  
 
 ## 设置别名
-git config --global alias.ci commit
-git config --global alias.hi log --pretty=format:'%h %ad | %s%d [%an]' --graph
+`git config --global alias.ci commit`
+`git config --global alias.hi log --pretty=format:'%h %ad | %s%d [%an]' --graph`
 
 ---
 
-cd ~
-vim .gitconfig
+`cd ~`  
+`vim .gitconfig`  
 
-ci = commit
-ad = add .
-br = branch
-hi = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-st = status
+`ci = commit`  
+`ad = add .`  
+`br = branch`  
+`hi = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short`  
+`st = status` 
 
 
 
