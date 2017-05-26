@@ -49,3 +49,41 @@
   `git reset HEAD --hard`
 - 回撤远程仓库, -f 即 --force  
   `git push -f`
+  
+---
+## 分支操作
+- `git branch`  列出当前分支   
+	- `git branch iss53` 添加一个名为iss53的分支
+	- `git branch -v`  查看当前分支提交的版本
+	- `git branch -d hotfix` 删除hotfix分支
+	- `git branch -D hotfix` 直接删除hotfix分支
+	- `git branch -m old_name new_name 改分支名
+	- `git branch -M old_name new_name 强制改分支名
+  - `git branch -r` 列出远程分支		
+  - `git branch --merged` 列出已经合并的分支
+  - `git branch --no-merged` 列出没有合并的分支
+  - `git branch -r --merged` 列出远程合并的分支
+		 
+- `git checkout -t origin/foo`  
+    取出远程foo分支
+
+- `git checkout isss53`  
+	   切换到ISS53分支
+	
+- `git push origin <spacs>:<remote branch>`
+ 	 `git fetch -p`  
+     删除远程分支
+     
+- `git push -u origin branchName`
+   添加本地分支到远程
+		
+- `git merge hotfix` 合并hotfix分支  
+  `git merge --no-ff` 合并分支，拒绝fast forward,产生合并commit
+- `git checkout -b foo` 创建分支并切换到foo分支
+
+- `git stash` 保存进度
+  - `git stash pop` 弹出进度
+  - `git stash list` 查看进度列表
+  - `git stash clear` 删除stash列表
+ 
+### 冲突
