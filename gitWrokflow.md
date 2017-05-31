@@ -17,3 +17,11 @@
 
 ## Gitflow工作流
 
+## Forking分布式工作流
+
+1. fork项目
+2. clone项目到本地,本地提交修改`pull request`
+3. 在本地添加对应的远程仓库`git remote add upstream git@github.com:sunshaochen/Test`
+4. 当主仓库发生更改时，本地 `git pull upstream master` 然后`git push`  
+ 
+
