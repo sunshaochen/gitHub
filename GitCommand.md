@@ -69,17 +69,20 @@
 
 - `git checkout isss53`  
 	   切换到ISS53分支
+
+- `git checkout -b isss53`  
+	 创建分支并切换到该分支
 	
 - `git push origin <spacs>:<remote branch>`
  	 `git fetch -p`  
      删除远程分支
      
-- `git push -u origin branchName`
+- `git push -u origin branchName`  
    添加本地分支到远程
 		
 - `git merge hotfix` 合并hotfix分支  
   `git merge --no-ff` 合并分支，拒绝fast forward,产生合并commit
-- `git checkout -b foo` 创建分支并切换到foo分支
+
 
 - `git stash` 保存进度
   - `git stash pop` 弹出进度
