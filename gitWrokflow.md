@@ -1,5 +1,7 @@
 # git 工作流
 
+[git工作流相关文档](https://github.com/xirong/my-git/blob/master/git-workflow-tutorial.md)
+
 ## 集中式工作流
 
 1. a提交，b需要`git pull --rebase`进行变基操作来避免三方合并
@@ -12,3 +14,6 @@
 2. 创建新的分支并切换到该分支`git checkout -b feat-dialog`
 3. 在该分支上进行操作并提交`git push -u origin feat-dialog`
 4. pull request 进行修改，完成
+
+## Gitflow工作流
+
