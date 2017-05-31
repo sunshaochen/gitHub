@@ -57,8 +57,8 @@
 	- `git branch -v`  查看当前分支提交的版本
 	- `git branch -d hotfix` 删除hotfix分支
 	- `git branch -D hotfix` 直接删除hotfix分支
-	- `git branch -m old_name new_name 改分支名
-	- `git branch -M old_name new_name 强制改分支名
+	- `git branch -m old_name new_name` 改分支名
+	- `git branch -M old_name new_name` 强制改分支名
   - `git branch -r` 列出远程分支		
   - `git branch --merged` 列出已经合并的分支
   - `git branch --no-merged` 列出没有合并的分支
