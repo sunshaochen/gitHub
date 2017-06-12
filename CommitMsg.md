@@ -1,4 +1,4 @@
-# CommitMsg 规范
+# CommitMsg 规范11
 
 `<type>(<SCOPE>):<subject> `   
 `//空一行  `  
