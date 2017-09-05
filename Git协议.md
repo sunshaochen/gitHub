@@ -25,19 +25,9 @@
 * 添加远程仓库的链接  
  `git remote add origin https://github.com/sunshaochen/test.git`
 
-
-## ssh协议
-
-* 克隆远程仓库，一般写成简短的命令  
- `git clone ssh://git@github.com/sunshaochen/test.git`  
- `git clone git@github.com:sunshaochen/test.git`
- 
-* 添加远程仓库的链接  
- `git remote add origin git@github.com:sunshaochen/test.git`
-
 ### SSH配置
 1. 生成RSA密钥对  
- `ssh-Keygen -t rsa -C "your email"`
+ `ssh-keygen -t rsa -C "your email"`
 2. 在Github网站添加公钥
 3. 使用ssh协议，克隆仓库或者添加远程链接
 
