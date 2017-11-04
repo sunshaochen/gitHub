@@ -2,8 +2,8 @@
 
 
 ## username&email
-`git config --global user.namec"孙韶辰"`  
-`git config --global user.emailc"sunscsmail@gmail.com"`
+`git config --global user.name "孙韶辰"`  
+`git config --global user.email "sunscsmail@gmail.com"`
 
 
 ## ignore config 
